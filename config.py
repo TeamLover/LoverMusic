@@ -48,8 +48,6 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "False")
 
-# make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-AviaxMusic-08-14")
 
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "5ffc4fd3cae949cf93d8b5b8ffcc9f9f")
