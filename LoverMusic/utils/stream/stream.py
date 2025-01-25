@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from AviaxMusic import Carbon, YouTube, app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.misc import db
-from AviaxMusic.utils.database import add_active_video_chat, is_active_chat
-from AviaxMusic.utils.exceptions import AssistantErr
-from AviaxMusic.utils.inline import aq_markup, close_markup, stream_markup
-from AviaxMusic.utils.pastebin import AviaxBin
-from AviaxMusic.utils.stream.queue import put_queue, put_queue_index
-from AviaxMusic.utils.thumbnails import gen_thumb
+from LoverMusic import Carbon, YouTube, app
+from LoverMusic.core.call import Lover
+from LoverMusic.misc import db
+from LoverMusic.utils.database import add_active_video_chat, is_active_chat
+from LoverMusic.utils.exceptions import AssistantErr
+from LoverMusic.utils.inline import aq_markup, close_markup, stream_markup
+from LoverMusic.utils.pastebin import LoverBin
+from LoverMusic.utils.stream.queue import put_queue, put_queue_index
+from LoverMusic.utils.thumbnails import gen_thumb
 
 
 async def stream(
@@ -32,7 +32,7 @@ async def stream(
     if not result:
         return
     if forceplay:
-        await Aviax.force_stop_stream(chat_id)
+        await Lover.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['play_19']}\n\n"
         count = 0
@@ -79,7 +79,7 @@ async def stream(
                     )
                 except:
                     raise AssistantErr(_["play_14"])
-                await Aviax.join_call(
+                await Lover.join_call(
                     chat_id,
                     original_chat_id,
                     file_path,
@@ -116,7 +116,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await AviaxBin(msg)
+            link = await LoverBin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
@@ -173,7 +173,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Aviax.join_call(
+            await Lover.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -233,7 +233,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Aviax.join_call(chat_id, original_chat_id, file_path, video=None)
+            await Lover.join_call(chat_id, original_chat_id, file_path, video=None)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -285,7 +285,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Aviax.join_call(chat_id, original_chat_id, file_path, video=status)
+            await Lover.join_call(chat_id, original_chat_id, file_path, video=status)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -341,7 +341,7 @@ async def stream(
             n, file_path = await YouTube.video(link)
             if n == 0:
                 raise AssistantErr(_["str_3"])
-            await Aviax.join_call(
+            await Lover.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -399,7 +399,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Aviax.join_call(
+            await Lover.join_call(
                 chat_id,
                 original_chat_id,
                 link,
