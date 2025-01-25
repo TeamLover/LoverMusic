@@ -6,7 +6,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/1f070ea3147e2a3ef44e4.jpg">
+  <img src="[https://te.legra.ph/file/1f070ea3147e2a3ef44e4.jpg](https://files.catbox.moe/e0mcfr.jpg)">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [『˹𝑳𝒐𝒗𝒆𝒓 ✘ ℳ𝓾𝓼𝓲c‌˼』](https://t.me/LoverMusic_Bot)**_
