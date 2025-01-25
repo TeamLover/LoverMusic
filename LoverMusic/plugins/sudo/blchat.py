@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from AviaxMusic.utils.decorators.language import language
+from LoverMusic import app
+from LoverMusic.misc import SUDOERS
+from LoverMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from LoverMusic.utils.decorators.language import language
 from config import BANNED_USERS
 
 
