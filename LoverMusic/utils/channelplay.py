@@ -1,5 +1,5 @@
-from AviaxMusic import app
-from AviaxMusic.utils.database import get_cmode
+from LoverMusic import app
+from LoverMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
