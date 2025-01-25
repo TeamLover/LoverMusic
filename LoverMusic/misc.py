@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from AviaxMusic.core.mongo import mongodb
+from LoverMusic.core.mongo import mongodb
 
 from .logging import LOGGER
 
