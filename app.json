@@ -1,6 +1,6 @@
 {
 
-    "name": "Aviax Music",
+    "name": "Lover Music",
 
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
 
@@ -14,7 +14,7 @@
 
     "bot",
 
-    "Aviax",
+    "Lover",
 
     "MusicBot",
 
