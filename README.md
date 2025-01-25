@@ -15,7 +15,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [『˹𝑳𝒐𝒗�
 <p align="center">
 <a href="https://github.com/TeamLover/LoverMusic/stargazers"><img src="https://img.shields.io/github/stars/TeamLover/LoverMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/TeamLover/LoverMusic/network/members"> <img src="https://img.shields.io/github/forks/TeamLover/LoverMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href=""> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/TeamLover/LoverMusic/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://github.com/TeamLover/LoverMusic/commits/Lover-Music"> <img src="https://img.shields.io/github/last-commit/TeamLover/LoverMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
