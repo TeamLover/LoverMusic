@@ -24,7 +24,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [『˹𝑳𝒐𝒗�
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
-  <img src="https://te.legra.ph/file/8a38f66826c2ea5e97724.jpg">
+  <img src="https://files.catbox.moe/i6bzej.jpg">
 </p>
 
 <p align="center">
