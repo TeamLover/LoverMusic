@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from AviaxMusic import YouTube, app
-from AviaxMusic.utils.channelplay import get_channeplayCB
-from AviaxMusic.utils.decorators.language import languageCB
-from AviaxMusic.utils.stream.stream import stream
+from LoverMusic import YouTube, app
+from LoverMusic.utils.channelplay import get_channeplayCB
+from LoverMusic.utils.decorators.language import languageCB
+from LoverMusic.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
