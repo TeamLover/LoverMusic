@@ -177,7 +177,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                         reply_markup=close_markup(_),
                     )
                     try:
-                        return await Aviax.stop_stream(chat_id)
+                        return await Lover.stop_stream(chat_id)
                     except:
                         return
             except:
@@ -191,7 +191,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                         ),
                         reply_markup=close_markup(_),
                     )
-                    return await Aviax.stop_stream(chat_id)
+                    return await Lover.stop_stream(chat_id)
                 except:
                     return
         else:
