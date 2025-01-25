@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from AviaxMusic import app
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.database import (
+from LoverMusic import app
+from LoverMusic.misc import SUDOERS
+from LoverMusic.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
