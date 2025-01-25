@@ -1,8 +1,8 @@
-from AviaxMusic.core.bot import Aviax
-from AviaxMusic.core.dir import dirr
-from AviaxMusic.core.git import git
-from AviaxMusic.core.userbot import Userbot
-from AviaxMusic.misc import dbb, heroku
+from LoverMusic.core.bot import Lover 
+from LoverMusic.core.dir import dirr
+from LoverMusic.core.git import git
+from LoverMusic.core.userbot import Userbot
+from LoverMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Aviax()
+app = Lover()
 userbot = Userbot()
 
 
