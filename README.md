@@ -62,7 +62,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [『˹𝑳𝒐𝒗�
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/CyberPixelPro/AviaxMusic && cd AviaxMusic
+   git clone https://github.com/TeamLover/LoverMusic && cd LoverMusic
    ```
 6. **Install Requirements**
    ```bash
