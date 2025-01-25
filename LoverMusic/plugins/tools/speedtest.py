@@ -1,9 +1,9 @@
 import asyncio
 import speedtest
 from pyrogram import filters
-from AviaxMusic import app
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.decorators.language import language
+from LoverMusic import app
+from LoverMusic.misc import SUDOERS
+from LoverMusic.utils.decorators.language import language
 
 
 
