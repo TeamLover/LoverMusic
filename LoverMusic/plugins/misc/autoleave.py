@@ -3,10 +3,10 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 from pytgcalls.exceptions import GroupCallNotFound
 import config
-from AviaxMusic import app
-from AviaxMusic.misc import db
-from AviaxMusic.core.call import Aviax, autoend, counter
-from AviaxMusic.utils.database import get_client, set_loop, is_active_chat, is_autoend, is_autoleave
+from LoverMusic import app
+from LoverMusic.misc import db
+from LoverMusic.core.call import Lover, autoend, counter
+from LoverMusic.utils.database import get_client, set_loop, is_active_chat, is_autoend, is_autoleave
 import logging
 
 async def auto_leave():
