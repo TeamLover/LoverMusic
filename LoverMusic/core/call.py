@@ -1,4 +1,4 @@
-import asyncio
+Loverimport asyncio
 import os
 from datetime import datetime, timedelta
 from typing import Union
@@ -622,4 +622,4 @@ class Call(PyTgCalls):
             await self.change_stream(client, update.chat_id)
 
 
-Anony = Call()
+Lover = Call()
