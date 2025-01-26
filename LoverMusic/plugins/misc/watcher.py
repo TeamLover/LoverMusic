@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from LoverMusic import app
-from LoverMusic.core.call import Aviax
+from LoverMusic.core.call import Lover 
 
 welcome = 20
 close = 30
