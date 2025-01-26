@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AviaxMusic import YouTube, app
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.database import (
+from LoverMusic import YouTube, app
+from LoverMusic.misc import SUDOERS
+from LoverMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from AviaxMusic.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from AviaxMusic.utils.inline import botplaylist_markup
+from LoverMusic.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL,  adminlist
 from strings import get_string
 
