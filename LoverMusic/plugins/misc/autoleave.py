@@ -11,7 +11,7 @@ import logging
 
 async def auto_leave():
     while not await asyncio.sleep(900):
-        from AviaxMusic.core.userbot import assistants
+        from LoverMusic.core.userbot import assistants
         ender = await is_autoleave()
         if not ender:
             continue
