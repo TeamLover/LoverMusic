@@ -56,7 +56,7 @@ async def auto_end():
             nocall = False
             for chat_id in chatss:
                 try:
-                    users = len(await Aviax.call_listeners(chat_id))
+                    users = len(await Lover.call_listeners(chat_id))
                 except GroupCallNotFound:
                     users = 1
                     nocall = True
@@ -71,7 +71,7 @@ async def auto_end():
                     except Exception:
                         pass
                     try:
-                        await Aviax.stop_stream(chat_id)
+                        await Lover.stop_stream(chat_id)
                     except Exception:
                         pass
                     try:
