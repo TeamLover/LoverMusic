@@ -6,19 +6,19 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "22926746"))
+API_HASH = getenv("API_HASH", "ffd91926f59e55fb08b3e1a4f5b99b1d")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7913385471:AAE32mtrUOkNPcP_5Pwp5_0YHGAAqtNK570")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://LoverMusic:LoverMusic@cluster0.xao18.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001583255537"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『˹𝑳𝒐𝒗𝒆𝒓 ✘ ℳ𝓾𝓼𝓲c‌˼』")
 # Get this value from @MissRose_Bot on Telegram by /id
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQFd1ZoAb_oclKT-RGWT6MHnuJfnpJQqpQhbmdNwV_HW0-i3Zub-bEXdhUwAOIMPpahPfswlCbzmBaJsNBBOPK9rUR0L1HCQO2_qM-s-v8MOyD6BI_GXJyLARGvfqlqlVFnviBgqfQAOstwr7m1lyo9A8nphVmj1-4QF2o9__ZW0Ujoxk_slD2oB5KIYg5UHYSPqXFhfzFqLg7jFxLxEKiHwrElwchS1yPW1sTc9hhWkmYy32YDYfmVICbcPTp446v7DHrMo7ldLDPr8NCHASAKfCGXtwzE8lCTE5SXtstXObj3j1SjP93XN_fAVGYPIriSsAwdfJObOJDqpdz0Cw1BBKNFj1wAAAAHS5JCGAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
