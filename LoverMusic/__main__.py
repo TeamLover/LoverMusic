@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Lover.start()
     try:
-        await Lover.stream_call("https://telegra.ph/file/de3464aa7d6bfafdd2dc3.mp4")
+        await Lover.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("LoverMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
