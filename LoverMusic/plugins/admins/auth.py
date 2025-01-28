@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.utils import extract_user, int_to_alpha
-from AviaxMusic.utils.database import (
+from LoverMusic import app
+from LoverMusic.utils import extract_user, int_to_alpha
+from LoverMusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from AviaxMusic.utils.decorators import AdminActual, language
-from AviaxMusic.utils.inline import close_markup
+from LoverMusic.utils.decorators import AdminActual, language
+from LoverMusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
