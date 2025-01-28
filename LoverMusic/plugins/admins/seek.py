@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import YouTube, app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.misc import db
-from AviaxMusic.utils import AdminRightsCheck, seconds_to_min
-from AviaxMusic.utils.inline import close_markup
+from LoverMusic import YouTube, app
+from LoverMusic.core.call import Lover
+from LoverMusic.misc import db
+from LoverMusic.utils import AdminRightsCheck, seconds_to_min
+from LoverMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
@@ -56,7 +56,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
     if "index_" in file_path:
         file_path = playing[0]["vidid"]
     try:
-        await Aviax.seek_stream(
+        await Lover.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),
