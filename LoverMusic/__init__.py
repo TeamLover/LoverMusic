@@ -1,5 +1,5 @@
-from AviaxMusic.core.bot import Aviax
-from AviaxMusic.core.dir import dirr
+from LoverMusic.core.bot import Lover
+from LoverMusic.core.dir import dirr
 from AviaxMusic.core.git import git
 from AviaxMusic.core.userbot import Userbot
 from AviaxMusic.misc import dbb, heroku
