@@ -3,7 +3,7 @@ import uvloop
 uvloop.install()
 
 from pyrogram import Client, errors
-from pyrogram.enums import ChatMemberStatus, ParseMode
+from pyrogram.enums import ParseMode
 
 import config
 from ..logging import LOGGER
