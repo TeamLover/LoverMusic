@@ -10,7 +10,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from LoveeMusic import app
+from LoverMusic import app
 from LoverMusic.misc import HAPP, SUDOERS, XCB
 from LoverMusic.utils.database import (
     get_active_chats,
