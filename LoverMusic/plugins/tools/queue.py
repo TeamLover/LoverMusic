@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from AviaxMusic import app
-from AviaxMusic.misc import db
-from AviaxMusic.utils import AviaxBin, get_channeplayCB, seconds_to_min
-from AviaxMusic.utils.database import get_cmode, is_active_chat, is_music_playing
-from AviaxMusic.utils.decorators.language import language, languageCB
-from AviaxMusic.utils.inline import queue_back_markup, queue_markup
+from LoverMusic import app
+from LoverMusic.misc import db
+from LoverMusic.utils import LoverBin, get_channeplayCB, seconds_to_min
+from LoverMusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from LoverMusic.utils.decorators.language import language, languageCB
+from LoverMusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
@@ -176,7 +176,7 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
             return await CallbackQuery.edit_message_text(msg, reply_markup=buttons)
         if "✨" in msg:
             msg = msg.replace("✨", "")
-        link = await AviaxBin(msg)
+        link = await LoverBin(msg)
         med = InputMediaPhoto(media=link, caption=_["queue_3"].format(link))
         await CallbackQuery.edit_message_media(media=med, reply_markup=buttons)
     else:
