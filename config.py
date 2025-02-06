@@ -10,10 +10,10 @@ API_ID = int(getenv("API_ID", "22926746"))
 API_HASH = getenv("API_HASH", "ffd91926f59e55fb08b3e1a4f5b99b1d")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7801450801:AAFhjSkRFR2K5TZmJKjTrHHkIG1lZKuXowU")
+BOT_TOKEN = getenv("BOT_TOKEN", "7913385471:AAHKUuzRSf9m2ZkL3pCvGSa0xKIKkf0xuiM")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://LoverMusic:LoverMusic@cluster0.xao18.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamLover/LoverMusic",
+    "https://github.com/Lover-Music/Newrepo",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -48,6 +48,8 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "False")
 
+# make your bots privacy from telegra.ph and put your url here 
+PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-AviaxMusic-08-14")
 
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "5ffc4fd3cae949cf93d8b5b8ffcc9f9f")
@@ -65,7 +67,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", "BQFd1ZoAN49uV5vVLgZsJ8xo48LSSa5Jv2tL43NIaiQa8W3SQ4Kq0xdvI6eZXHjr7YVm2u9Z3mdpPrBvZZzclNWHlZFKNDXR74q2fjtZmtDIeacZzDRU5iA_WgRs40yr9Ut6hOLT4Pu6lrxthOPpbWTFUKkb8zxWAeK42PjZzG-RzifDlTHAcYusxSIghi6UlVgFUyXNj2dJx1QhPLGGODUwNY1TwulwUDlAAU_0RSDBg1EjVVrVS-OD5P0Pw1AQwh9edYUzW7S1nNv_7svP53xOOUVak1yAZetfg1c4DBbAKbxUwp7TPX_1TTryZa5C4xK6tQQnFL6a6XHSLOdO5JQa9bjJxwAAAAHS5JCGAA")
+STRING1 = getenv("STRING_SESSION", "BQFd1ZoAZ3TezVkB7nVkbUmYnUmiBGwG3adMAxVJxT4ISGbFiiDWZDKQNlqrBIC7pixrpduYiQV4vD6r3l5cFR0xT1UmK10yMPzwH1ro45YUf9nf4wPspjMGtpKMn1DAyjrjWWB9Hbn07Xoh8Ir-t7Q_noF11wqZ7Jch8d_DKe-_vBFqmvO2dxHLwtrqltWwkUVpUfapN735qk_e-I_tDUZ5gWGEowG83AvOTM8QL0yqioGU_z5UWIM1YViPKAgfUbznR83DFZ0JnYPkQX3PjpfCEuBMCiLKMwKzfXG2Ls3NFxpYLotGg8rVM0XrHRSDQjRweR4AhbCVj_K1ugkKYgXW1Ks8CwAAAAHS5JCGAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -84,54 +86,18 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://files.catbox.moe/i6bzej.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", 
-    "assets/Ping.jpeg"
+    "PING_IMG_URL", "https://files.catbox.moe/i6bzej.jpg"
 )
-PLAYLIST_IMG_URL = getenv(
-    "PLAYLIST_IMG_URL",
-    "assets/Playlist.jpeg",
-)
-
-STATS_IMG_URL = getenv(
-    "STATS_IMG_URL",
-    "assets/Stats.jpeg",
-)
-TELEGRAM_AUDIO_URL = getenv(
-    "TELEGRAM_AUDIO_URL",
-    "https://telegra.ph/file/a62273c43c95ad07ada61.jpg",
-)
-TELEGRAM_VIDEO_URL = getenv(
-    "TELEGRAM_VIDEO_URL",
-    "https://telegra.ph/file/a62273c43c95ad07ada61.jpg",
-)
-STREAM_IMG_URL = getenv(
-    "STREAM_IMG_URL",
-    "assets/Stream.jpeg",
-)
-SOUNCLOUD_IMG_URL = getenv(
-    "SOUNCLOUD_IMG_URL",
-    "assets/Soundcloud.jpeg",
-)
-
-YOUTUBE_IMG_URL = getenv(
-    "YOUTUBE_IMG_URL",
-    "assets/Youtube.jpeg",
-)
-
-SPOTIFY_ARTIST_IMG_URL = getenv(
-    "SPOTIFY_ARTIST_IMG_URL",
-    "assets/SpotifyArtist.jpeg",
-)
-
-SPOTIFY_ALBUM_IMG_URL = getenv(
-    "SPOTIFY_ALBUM_IMG_URL",
-    "assets/SpotifyAlbum.jpeg",
-)
-
-SPOTIFY_PLAYLIST_IMG_URL = getenv(
-    "SPOTIFY_PLAYLIST_IMG_URL",
-    "assets/SpotifyPlaylist.jpeg",
-)
+PLAYLIST_IMG_URL = "https://files.catbox.moe/i6bzej.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/e73xhn.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
 
 
 def time_to_seconds(time):
@@ -140,6 +106,4 @@ def time_to_seconds(time):
 
 
 DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
-
-
 
