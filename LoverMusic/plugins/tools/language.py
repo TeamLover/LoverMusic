@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from AviaxMusic import app
-from AviaxMusic.utils.database import get_lang, set_lang
-from AviaxMusic.utils.decorators import ActualAdminCB, language, languageCB
+from LoverMusic import app
+from LoverMusic.utils.database import get_lang, set_lang
+from LoverMusic.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
