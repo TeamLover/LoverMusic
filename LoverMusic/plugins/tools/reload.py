@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from AviaxMusic import app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.misc import db
-from AviaxMusic.utils.database import get_assistant, get_authuser_names, get_cmode
-from AviaxMusic.utils.decorators import ActualAdminCB, AdminActual, language
-from AviaxMusic.utils.formatters import alpha_to_int, get_readable_time
+from LoverMusic import app
+from LoverMusic.core.call import Lover
+from LoverMusic.misc import db
+from LoverMusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from LoverMusic.utils.decorators import ActualAdminCB, AdminActual, language
+from LoverMusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}
