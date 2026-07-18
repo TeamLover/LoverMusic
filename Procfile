@@ -1,1 +1,1 @@
-worker: python -m VISHALMUSIC 
+worker: python -m LoverMusic
