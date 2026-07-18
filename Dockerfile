@@ -6,4 +6,4 @@ COPY . /app
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 # Expose nothing; this is a background worker
-CMD ["python3", "-m", "VISHALMUSIC"] 
+CMD ["python3", "-m", "LoverMusic"] 
