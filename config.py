@@ -1,30 +1,23 @@
-# ═══════════════════════════════════════════════════════════
-#        😎  VISHAL MUSIC BOT  😎
-#   GitHub : github.com/ItsMeVishal0/VishalMusic
-#   Developer : @ItsMeVishalBots | Telegram
-#   Module : Bot Configuration & Environment Variables
-# ═══════════════════════════════════════════════════════════
-
 import re
 from os import getenv
 from dotenv import load_dotenv
 from pyrogram import filters
 
-# Load environment variables from .env file
+
 load_dotenv()
 
-# ── Core bot config ─────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 26493077))
-API_HASH = getenv("API_HASH", "6586f0276c7748e54684719bdd247d90")
+
+API_ID = int(getenv("API_ID", ))
+API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ItsMeVishalBots")
-BOT_USERNAME = getenv("BOT_USERNAME", "vaishaliTune_bot")
-BOT_NAME = getenv("BOT_NAME", "≽ ^⎚ 𝘃𝗮𝗶𝘀𝗵𝗮𝗹𝗶 𝘅 𝗺𝘂𝘀𝗶𝗰 ⎚^ ≼")
-ASSUSERNAME = getenv("ASSUSERNAME", "≽ ^⎚ 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 ⎚^ ≼")
+OWNER_ID = int(getenv("OWNER_ID", ))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "")
+BOT_USERNAME = getenv("BOT_USERNAME", "")
+BOT_NAME = getenv("BOT_NAME", "")
+ASSUSERNAME = getenv("ASSUSERNAME", "")
 
-# ── Database & logging ────────────────────────────────────────────────────────
+
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 LOGGER_ID = int(getenv("LOGGER_ID", -1002425220992))
 
@@ -59,8 +52,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ItsMeVishalBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ItsMeVishalSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
