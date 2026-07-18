@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: vishal-music-bot
+    name: Lover-music-bot
     runtime: python
     plan: free
     buildCommand: "pip install -U pip && pip install -r requirements.txt"
-    startCommand: "python3 -m VISHALMUSIC"
+    startCommand: "python3 -m LoverMusic"
     healthCheckPath: /health
     envVars:
       - key: PYTHONUNBUFFERED
